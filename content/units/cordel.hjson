@@ -1,0 +1,26 @@
+type: flying
+speed: 5
+commandLimit: 20
+accel:10
+drag:0.05
+engineOffset:1
+range: 200
+armor:0.2
+weapons:[
+{
+name:bullet
+y:-2
+x:05
+reload:05
+shootSound:shoot
+bullet:{
+    speed:10
+    damage:1
+    width:2
+    height: 10
+    lifetime: 20
+    shootEffect:shootSmall
+    shootEffect:shootSmallSmoke
+    }
+}]
+]

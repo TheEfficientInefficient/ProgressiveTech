@@ -1,0 +1,33 @@
+type: flying
+speed: 5
+commandLimit: 100
+accel: 0.1
+drag: 0.1
+health: 100
+engineOffset: 5.5
+range: 140
+armor: 1
+weapons: [
+  {
+    name: bullet
+    y: -2
+    x: 4
+    reload: 2
+    ejectEffect: casing1
+    shootSound: shoot
+    bullet: {
+      speed: 5
+      damage: 30
+      width: 10
+      height: 10
+      lifetime: 60
+      shrinkY: -5
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      frontColor: 0326c2
+      backColor: 0f1a98
+      status: freezing
+    }
+  }
+]
+

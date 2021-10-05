@@ -1,0 +1,10 @@
+name: Progressive-Tech
+displayName: Progressive Tech
+author: TheEfficientInefficient
+description:
+  '''
+  An attempt at modmaking. Maintained by single person
+  This mod serves as my learning ground for hjson. Expect it to be somehow playable
+  '''
+version: 0.1 Alpha
+minGameVersion: 131
