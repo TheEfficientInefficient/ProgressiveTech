@@ -1,0 +1,43 @@
+type:mech
+speed: 5
+commandLimit: 20
+accel:10
+drag:0.05
+engineOffset:1
+range: 200
+armor:0.2
+deathSound:explosion
+weapons:[
+    {
+        name:"gun"
+        y:-4
+        x:07
+        reload:05
+        shootSound:shoot
+        bullet:{
+            speed:10
+            damage:1
+            width:2
+            height: 10
+            lifetime: 20
+            shootEffect:shootSmall
+            shootEffect:shootSmallSmoke
+            }
+    }
+/*    {   name:"cannon"
+        x:0
+        y:1
+        reload:20
+        mirror:false
+        shootSound:explosion
+        bullet:{
+            speed:2
+            damage:05
+            width:05
+            height:05
+            lifetime:40
+            shootEffect:shootSmallSmoke
+            
+    }
+}*/
+]

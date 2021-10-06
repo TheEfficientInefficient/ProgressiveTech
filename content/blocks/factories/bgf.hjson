@@ -1,0 +1,22 @@
+name: "Ground Base"
+description: "Once used by humans, currently controlled by advanced AI."
+details: "Only way to produce more advanced  early on."
+type: UnitFactory
+health: 300
+size: 3
+unitCapModifier: 1
+plans: [
+  {
+    unit: cordel
+    requirements: [
+      copper/50
+    ]
+    time: 450
+  }
+]
+category: units
+requirements: [
+  copper/120
+  lead/30
+]
+/* research: core-refraction */
