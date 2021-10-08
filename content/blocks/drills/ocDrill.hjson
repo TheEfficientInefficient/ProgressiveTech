@@ -1,0 +1,21 @@
+name: "Overclocked Drill"
+description: "A regular drill but overclocked. Mines faster but requires energy to operate."
+type: Drill
+size: 2
+tier: 2
+liquidBoostIntensity: 1.8
+drawRim: true
+requirements:[
+    copper/100
+    lead/50
+]
+consume:{
+    power: 2
+    liquid:{
+            liquid: water
+            amount: .5
+            booster: true
+            optional: true
+            }
+        }
+category: production

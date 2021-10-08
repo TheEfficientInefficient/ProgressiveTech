@@ -1,5 +1,5 @@
 name: "Ground Base"
-description: "Once used by humans, currently controlled by advanced AI."
+description: "Once used by humans, currently controlled by advanced AI as repurposed facility for creating ground units"
 details: "Only way to produce more advanced  early on."
 type: UnitFactory
 health: 300
@@ -19,4 +19,5 @@ requirements: [
   copper/120
   lead/30
 ]
+
 /* research: core-refraction */

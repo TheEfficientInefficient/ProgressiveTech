@@ -9,8 +9,8 @@ armor:0.2
 deathSound:explosion
 weapons:[
     {
-        name:"gun"
-        y:-4
+        /* name:"gun"*/
+        y:2
         x:07
         reload:05
         shootSound:shoot
