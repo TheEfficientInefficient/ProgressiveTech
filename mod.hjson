@@ -5,6 +5,10 @@ description:
   '''
   An attempt at modmaking. Maintained by single person
   This mod serves as my learning ground for hjson. Expect it to be somehow playable
+  
+  Coding by TheEfficientInefficient
+  Sprites by THEDR1FTER
+  
   '''
-version: 0.1 Alpha
+version: 0.1 Alpha-UR
 minGameVersion: 131
